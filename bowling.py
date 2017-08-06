@@ -31,9 +31,7 @@ def score(game):
 def get_value(char):
     if char.isdigit() in range(1, 10):
         return int(char)
-    elif char in 'Xx/':
+    if char in "Xx/":
         return 10
-    elif char == '-':
-        return 0
     else:
-        raise ValueError()
+        return 0
