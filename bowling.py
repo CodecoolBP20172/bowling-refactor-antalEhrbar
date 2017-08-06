@@ -35,3 +35,4 @@ def get_value(char):
         return 10
     else:
         return 0
+    
